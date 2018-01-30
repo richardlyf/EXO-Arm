@@ -1,0 +1,14 @@
+﻿  Algo SDK Sample.cpp
+Algo SDK Sample.cpp(79): warning C4005: 'WM_USER': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winuser.h(2516): note: see previous definition of 'WM_USER'
+Algo SDK Sample.cpp(385): warning C4244: 'initializing': conversion from 'NS_ALGO_ATT_INDEX' to 'int', possible loss of data
+Algo SDK Sample.cpp(394): warning C4244: 'initializing': conversion from 'NS_ALGO_MED_INDEX' to 'int', possible loss of data
+Algo SDK Sample.cpp(403): warning C4244: 'initializing': conversion from 'NS_ALGO_EYE_BLINK_STRENGTH' to 'int', possible loss of data
+Algo SDK Sample.cpp(820): warning C4101: 'hFile': unreferenced local variable
+  Generating code
+  1 of 23 functions ( 4.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Algo SDK Sample.vcxproj -> C:\Users\RichardLin\Desktop\Windows-Developer-Tools-3.2\Windows Developer Tools 3.2\EEG_Algo_SDK_Windows\Algo SDK Sample\Release\Algo SDK Sample.exe
+  Algo SDK Sample.vcxproj -> C:\Users\RichardLin\Desktop\Windows-Developer-Tools-3.2\Windows Developer Tools 3.2\EEG_Algo_SDK_Windows\Algo SDK Sample\Release\Algo SDK Sample.pdb (Full PDB)

@@ -1,0 +1,5 @@
+﻿  thinkgear_testapp.c
+c:\users\richardlin\desktop\windows-developer-tools-3.2\windows developer tools 3.2\stream sdk for pc\sample project\x64\thinkgear_testapp\thinkgear_testapp\thinkgear_testapp.c(103): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(475): note: see declaration of 'ctime'
+  thinkgear_testapp.vcxproj -> C:\Users\RichardLin\Desktop\Windows-Developer-Tools-3.2\Windows Developer Tools 3.2\Stream SDK for PC\Sample Project\x64\thinkgear_testapp\x64\Debug\thinkgear_testapp.exe
+  thinkgear_testapp.vcxproj -> C:\Users\RichardLin\Desktop\Windows-Developer-Tools-3.2\Windows Developer Tools 3.2\Stream SDK for PC\Sample Project\x64\thinkgear_testapp\x64\Debug\thinkgear_testapp.pdb (Partial PDB)
