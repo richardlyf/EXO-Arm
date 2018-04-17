@@ -1,3 +1,5 @@
+DO NOT CLONE THIS NOW...THERES A BIG PROBLEM IM FIXING
+
 For now we will use ROS and rvis or Gazebo to build a simulation for the robot arm to test the controls program.
 
 Install ROS Kinetic: http://wiki.ros.org/kinetic/Installation
