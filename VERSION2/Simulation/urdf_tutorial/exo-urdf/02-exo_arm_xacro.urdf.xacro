@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<robot name="macroed" xmlns:xacro="http://ros.org/wiki/xacro">
+
+	<xacro:property name="width_x" value = "0.1"/>
+	<xacro:property name="width_y" value = "0.2"/>
+	<xacro:property name="length_upper" value = "0.6"/>
+	<xacro:property name="length_lower" value = "0.4"/>
+	<xacro:property name="joint_offset" value = "0.05"/>
+
+	<material name="blue">
+		<color rgba="0 0 0.8 1"/>
+	</material>
+	<material name="black">
+		<color rgba="0 0 0 1"/>
+	</material>
+	<material name="white">
+		<color rgba="1 1 1 1"/>
+	</material>
+
+	<link name="base_link">
+		<visual>
+			<geometry>
+				<box size = "${width_x}  ${width_y} ${length_upper}"/>
+			</geometry>
+			<origin xyz = "0 0 0"/>
+			<material name="white"/>
+		</visual>
+	</link>
+	
+	<link name="forearm">
+		<visual>
+			<geometry>
+				<box size = "${width_x} ${width_y} ${length_lower}"/>
+			</geometry>
+			<origin rpy = "0 0 0" xyz = "0 0 ${-length_lower/2 + joint_offset}"/>
+			<material name = "blue"/>
+		</visual>
+	</link>
+
+	<joint name="base_to_forearm" type ="revolute">
+		<axis xyz = "1 0 0"/>
+		<limit effort = "1000.0" lower="0.0" upper="2" velocity = "0.5"/>
+		<parent link="base_link"/>
+		<child link="forearm"/>
+		<origin rpy="0 0 0" xyz = "${width_y/2} 0 ${-length_upper/2 + joint_offset}"/>
+	</joint>
+
+</robot>

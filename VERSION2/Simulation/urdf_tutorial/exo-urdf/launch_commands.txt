@@ -1,0 +1,2 @@
+To launch the simulation for exo arm enter:
+roslaunch urdf_tutorial display.launch model:=01-exo_arm.urdf
